@@ -8,10 +8,14 @@
         "enjoys": [
             "outdoors"
         ],
-        "birthdate": {
+        "birth_date": {
             "month": "March"
         },
-        "position": "founder"
+        "position": "founder",
+        "compliments": [
+            "Getting outdoors definitely expands one's horizon, and Jimmy, yours has led you to founding this awesome company and community.",
+            "We only have two founders, and they're both awesome :grin:"
+        ]
     },
     {
         "name": {
@@ -22,10 +26,15 @@
         "enjoys": [
             "nightlife"
         ],
-        "birthdate": {
+        "birth_date": {
             "month": "April"
         },
-        "position": "founder"
+        "position": "founder",
+        "compliments": [
+            "Seeing the company growing so well, it's easy to say that Captain Picard is a true and great captain of this ship.",
+            "Some get spoiled by the nightlife, but Bahaa, you manage to stay focused and certainly bring your all to the table!",
+            "We only have two founders, and they're both awesome :grin:"
+        ]
     },
     {
         "name": {
@@ -36,10 +45,14 @@
         "enjoys": [
             "video games"
         ],
-        "birthdate": {
+        "birth_date": {
             "month": "November"
         },
-        "position": "lead technical consultant"
+        "position": "lead technical consultant",
+        "compliments": [
+            "Mr. Anthony, you lead the tech side of things, and you're excellent at it!",
+            "Anthony, you're a great and wholesome guy! nformal is lucky to have you leading the tech side of things :blush:"
+        ]
     },
     {
         "name": {
@@ -51,10 +64,14 @@
             "shopping",
             "decorating"
         ],
-        "birthdate": {
+        "birth_date": {
             "month": "September"
         },
-        "position": "lead functional consultant"
+        "position": "lead functional consultant",
+        "compliments": [
+            "It's great when one can express their creative talent both at work and in hobbies, and Do, you've definitely got that covered!",
+            "Tech isn't everything. Flow, style and design are important as well and Do, you totally rock at those :fire:"
+        ]
     },
     {
         "name": {
@@ -65,10 +82,14 @@
         "enjoys": [
             "robotics"
         ],
-        "birthdate": {
+        "birth_date": {
             "month": "September"
         },
-        "position": "technical consultant"
+        "position": "technical consultant",
+        "compliments": [
+            "Jacky Boy, robotics are your thing. It's only logical that you are great at your job :thumbsup:",
+            "Jack, thank you for your awesome work!"
+        ]
     },
     {
         "name": {
@@ -80,9 +101,13 @@
             "spending time with friends",
             "impressions"
         ],
-        "birthdate": {
+        "birth_date": {
             "month": "November"
         },
-        "position": "functional consultant"
+        "position": "functional consultant",
+        "compliments": [
+            "Tony, your friendships make you who you are today, and you're awesome! ^^",
+            "Tony, you rock! Don't stop doing such a great job now :fist:"
+        ]
     }
 ]
