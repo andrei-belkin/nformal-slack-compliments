@@ -9,19 +9,21 @@ def read_db():
 
 
 def get_random_team_member():
-    teams_members = read_db()
-    return random.choice(teams_members)
+    team_members = read_db()
+    print(team_members)
+    return random.choice(team_members)
 
 
 def get_random_compliment(team_member):
     compliment_message = ""
+    print(team_member)
     # TODO: Somehow get random message (maybe in correlation to team member profile data?)
     return compliment_message
 
 
 def send(compliment_message):
     # TODO: Connect to Slack bot and send message
-    pass
+    print("Sending compliment")
 
 
 def compliment():
@@ -40,5 +42,5 @@ def main():
         sleep(compliments_interval * 60)
 
 
-if __name__ is "__main__":
+if __name__ == "__main__":
     main()
