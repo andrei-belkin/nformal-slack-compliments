@@ -1,6 +1,7 @@
 import json
 import os
 import random
+from datetime import datetime
 from time import sleep
 
 import requests
@@ -35,7 +36,7 @@ def send(compliment_message):
         'blocks': None
     })
 
-    print("Sending compliment : {}".format(compliment_message))
+    print("{} - {}".format(datetime.now().strftime("%H:%M:%S"), compliment_message))
 
 
 def compliment():
