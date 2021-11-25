@@ -1,6 +1,9 @@
-from time import sleep
 import json
+import os
 import random
+from time import sleep
+
+import requests
 
 
 def read_db():
@@ -10,20 +13,29 @@ def read_db():
 
 def get_random_team_member():
     team_members = read_db()
-    print(team_members)
     return random.choice(team_members)
 
 
 def get_random_compliment(team_member):
-    compliment_message = ""
-    print(team_member)
-    # TODO: Somehow get random message (maybe in correlation to team member profile data?)
-    return compliment_message
+    return random.choice(team_member["compliments"])
 
 
 def send(compliment_message):
-    # TODO: Connect to Slack bot and send message
-    print("Sending compliment")
+    slack_token = os.environ.get("SLACK_BOT_TOKEN")
+    slack_channel = '#ext-tech'
+    slack_icon_emoji = ':see_no_evil:'
+    slack_user_name = 'happy-bot'
+
+    requests.post('https://slack.com/api/chat.postMessage', {
+        'token': slack_token,
+        'channel': slack_channel,
+        'text': compliment_message,
+        'icon_emoji': slack_icon_emoji,
+        'username': slack_user_name,
+        'blocks': None
+    })
+
+    print("Sending compliment : {}".format(compliment_message))
 
 
 def compliment():
