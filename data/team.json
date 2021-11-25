@@ -1,16 +1,88 @@
 [
     {
         "name": {
-            "first": "",
-            "last": ""
+            "first": "James",
+            "last": "Fabbi"
         },
-        "nickname": "",
+        "nickname": "Jimmy Fabs",
         "enjoys": [
-            ""
+            "outdoors"
         ],
-        "birth": {
-            "month": ""
+        "birthdate": {
+            "month": "March"
         },
-        "position": ""
+        "position": "founder"
+    },
+    {
+        "name": {
+            "first": "Bahaa",
+            "last": "Badran"
+        },
+        "nickname": "Captain Picard",
+        "enjoys": [
+            "nightlife"
+        ],
+        "birthdate": {
+            "month": "April"
+        },
+        "position": "founder"
+    },
+    {
+        "name": {
+            "first": "Anthony",
+            "last": "Cammisano"
+        },
+        "nickname": "Mr. Anthony",
+        "enjoys": [
+            "video games"
+        ],
+        "birthdate": {
+            "month": "November"
+        },
+        "position": "lead technical consultant"
+    },
+    {
+        "name": {
+            "first": "Dominique",
+            "last": "Ducharme"
+        },
+        "nickname": "Do",
+        "enjoys": [
+            "shopping",
+            "decorating"
+        ],
+        "birthdate": {
+            "month": "September"
+        },
+        "position": "lead functional consultant"
+    },
+    {
+        "name": {
+            "first": "Jack",
+            "last": "Dundas"
+        },
+        "nickname": "Jacky Boy",
+        "enjoys": [
+            "robotics"
+        ],
+        "birthdate": {
+            "month": "September"
+        },
+        "position": "technical consultant"
+    },
+    {
+        "name": {
+            "first": "Anthony",
+            "last": "Najjar"
+        },
+        "nickname": "Tony",
+        "enjoys": [
+            "spending time with friends",
+            "impressions"
+        ],
+        "birthdate": {
+            "month": "November"
+        },
+        "position": "functional consultant"
     }
 ]
